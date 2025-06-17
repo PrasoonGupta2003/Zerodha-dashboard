@@ -7,7 +7,7 @@ const Orders = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("http://localhost:3002/getOrders")
+    axios.get("https://zerodha-backend-4jc1.onrender.com/getOrders")
       .then((res) => {
         setOrders(res.data);
         setLoading(false);
