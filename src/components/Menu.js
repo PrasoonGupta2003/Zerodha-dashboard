@@ -20,7 +20,7 @@ const Menu = () => {
   return (
     <div className="menu-container">
       <a
-        href="http://localhost:3001"
+        href="https://zerodha-frontend-qqte.onrender.com"
         style={{
           textDecoration: "none",
           display: "flex",
